@@ -52,21 +52,10 @@ Website Navigation : 27 August 2025
 Testing Website : 30 August
 Final Submission : 4 September
 
+SiteMap 
+Homepage >>> sneakerhome
+ShopPage >>> sneakershop
+PaymentPage >>> sneakerpayment
+ContactPage >>> sneakercontact
+AboutPage >>> sneakerabout
 
-Export to Sheets
-Sitemap
-Home
-
-Shop
-
-Sub-pages for categories (e.g., New Releases, Vintage, Collaborations)
-
-Individual Product Pages
-
-About Us
-
-Contact
-
-Cart
-
-Checkout
