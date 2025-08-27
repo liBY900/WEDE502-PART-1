@@ -61,17 +61,17 @@ August 23, 2025: Content Gathering
 Initial content for all key pages, such as product descriptions, company history, and contact information, was gathered.
 
 August 26, 2025: HTML Structure and File Setup
-The foundational HTML structure for the website was set up.
-Initial project files and folders were organized in the local repository.
+The foundational HTML structure for the website set up.
+Initial project files and folders will be organized in the local repository.
 
 August 27, 2025: Website Navigation
-The website navigation system was implemented, linking all main pages as defined in the sitemap (Homepage, ShopPage, PaymentPage, ContactPage, and AboutPage).
+The website navigation system will be implemented, linking all main pages as defined in the sitemap (Homepage, ShopPage, PaymentPage, ContactPage, and AboutPage).
 
 August 30, 2025: Website Testing
-Initial testing of the website's functionality began. The focus was on ensuring that all navigation links worked correctly and that the basic page structures loaded without errors.
+Initial testing of the website's functionality began. The focus will be on ensuring that all navigation links worked correctly and that the basic page structures loaded without errors.
 
 September 4, 2025: Final Submission
-The project was prepared for final submission, including a review of all implemented features and a final check for any bugs or errors.
+The project will be prepared for final submission, including a review of all implemented features and a final check for any bugs or errors.
 
 # GITHUB link : https://github.com/liBY900/WEDE502-PART-1.git
 
