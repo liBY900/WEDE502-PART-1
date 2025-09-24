@@ -66,3 +66,42 @@ a {
   text-decoration: none;
   transition: color 0.3s;
 }
+
+a:hover {
+  color: #fff;
+}
+
+header {
+  background-color: black;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+}
+
+.logo a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}

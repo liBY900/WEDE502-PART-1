@@ -75,3 +75,12 @@ The project will be prepared for final submission, including a review of all imp
 
 # GITHUB link : https://github.com/liBY900/WEDE502-PART-1.git
 
+# Part 2#
+
+Color change for the whole website
+Header >>>>background color "black". text color "Neon Pink"
+Body >>>>> background color "Dark Grey", text color "White" 
+botton>>>>> background color "Neon Pink", text color "white"
+Footer>>>> background color "black", text color "White" 
+
+
