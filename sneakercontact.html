@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .Msg{
+        font-size: 1em;
+        margin: 0 0 20px;
+        background-color: var(--accent-color);
+        color: #fff;
+        padding: 6px 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        
+      }
+
+      .Msg:hover{
+        background-color: #d12e5a;
+      }
+    </style>
   </head>
   <body>
       <header>
@@ -57,11 +73,12 @@
   <section class="contact-form-section">
       <h2>Send Us a Message</h2>
       <form action="#" method="post" class="contact-form">
-        
+        <br><br>
           <label for="message">Message:</label>
+          <br><br>
           <textarea id="message" name="message" required></textarea>
-
-          <button type="submit">Send Message</button>
+           <br><br>
+          <button type="submit" class="Msg">Send Message</button>
       </form>
   </section>
 </div>
