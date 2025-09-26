@@ -113,6 +113,8 @@ Base Styling: Added a CSS reset and established base styles for the entire websi
 
 ), font sizes (rem units), and a color palette using CSS variables (--primary-color, etc.). 
 
+For the whole website we styled it using external styling and for different page styling we used internal .
+
 Typography: Applied typography styles with font-family, font-size, font-weight, and line-height for h1 through h6 and p tags. 
 
 Layout Structure: Implemented Flexbox and CSS Grid for layout on key pages, such as the navigation bar and program grid, to ensure a robust and flexible design. 
@@ -164,7 +166,7 @@ Date: September 25, 2025
 
 Description of Changes: 
 
- Implemented a Secure User Authentication System: Developed a dedicated   login page to enable users to access their personalized accounts, enhancing platform functionality. The page was seamlessly integrated with the existing site architecture, utilizing the global header, footer, and brand background color for a consistent and professional user experience. This feature is a foundational step for personalized content and account security. 
+ Implemented a Secure User Authentication System: Developed a dedicated   login page to enable users to access their personalized accounts, enhancing platform functionality. The page was seamlessly integrated with the existing site architecture, utilizing the global  brand background color for a consistent and professional user experience. This feature is a foundational step for personalized content and account security. 
 
  
 
@@ -179,6 +181,13 @@ Base Body: The main content area uses a dark grey background with white text to 
 Call-to-Action (CTA) Buttons: Primary buttons are styled with a Neon Pink background and white text to maximize visibility and drive conversions. 
 
 CSS Variables: (Implied improvement) Color values are stored as CSS variables (e.g., --primary-black, --accent-pink) for easy maintenance and global consistency.
+
+# Website Color Scheme Update #
+
+Header: Background color – Black | Text color – Neon Pink
+Body: Background color – Dark Grey | Text color – White
+Buttons: Background color – Neon Pink | Text color – White
+Footer: Background color – Black | Text color – White
 
 # ScreenShot #
 
