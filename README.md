@@ -122,7 +122,7 @@ Visual Styling: Applied decorative styles using background-color, box-shadow, an
 Responsive Design Implementation: Built a fully responsive interface using @media queries (tablet and mobile breakpoints) and relative units (em, rem, vw) to ensure font sizes and layouts scale correctly, successfully switching complex views to a single-column display on smaller screens. 
 
 
-# About Us Page Refinement #  
+# Page Refinement #  
 
 Date: September 25, 2025 
 
