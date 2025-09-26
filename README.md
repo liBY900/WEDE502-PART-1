@@ -175,13 +175,17 @@ CSS Variables: (Implied improvement) Color values are stored as CSS variables (e
 # ScreenShot #
 
 Mobile
-![Alt text](mobile.png) 
+![Alt text](mobile.png)<br>
 Crop
-![Alt text](<crop responsive.png>) 
+![Alt text](<crop responsive.png>)<br> 
 Tablet
-![Alt text](tables.png) 
+![Alt text](tables.png) <br>
 Desktop
-![Alt text](Desktop.png)
+![Alt text](Desktop.png)<br>
+On Chrome
+![Alt text](chrome.png)<br>
+On Microsoft Edge
+![Alt text](Medge.png)<br>
 
 
  
