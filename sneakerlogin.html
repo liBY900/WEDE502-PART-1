@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sneaker Shop - Log In</title>
+  <link rel="stylesheet" href="style.css"> 
+  <style>
+     .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    /* This centers the form vertically in the main content area */
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px; /* Keep the login form contained and clean */
+    padding: 30px;
+    background-color: #333; /* A slightly lighter grey than the body background for depth */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow for pop effect */
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white; 
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444; /* Input fields are a medium dark grey */
+    color: white;
+    box-sizing: border-box; /* Ensures padding doesn't increase total width */
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.forgot-password {
+    color: #ff69b4; /* Neon Pink links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.btn-primary{
+    background-color: var(--accent-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+  </style>
+</head>
+<body>
+  
+  <main class="login-page">
+    <section class="login-container">
+      <h1 class="section-title">Welcome Back to The Sneaker Society</h1>
+      <p class="page-intro">Log in to track your orders, manage your profile, and check out the latest drops.</p>
+      
+      <form class="login-form" action="/login" method="post">
+        
+        <div class="form-group">
+          <label for="username">Email or Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Log In</button>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+        
+        
+
+      </form>
+    </section>
+  </main>
+
+  </body>
+</html>
