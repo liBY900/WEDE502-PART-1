@@ -1,5 +1,5 @@
 header {
-  background-color: var(--secondary-bg);
+  background-color: rgb(41, 41, 41);
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
@@ -23,8 +23,8 @@ nav ul {
 
 
 :root {
-  --primary-bg: #1a1a1a;
-  --secondary-bg: #222;
+  --primary-bg: #252525;
+  --secondary-bg: rgb(41, 41, 41);
   --text-color: #f0f0f0;
   --accent-color: #ff3366;
   --font-main: "Helvetica Neue", Arial, sans-serif;
@@ -99,7 +99,7 @@ nav a {
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   padding: 20px;
   margin-top: 40px;
