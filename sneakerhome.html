@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sneaker Society</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .hero {
-  position: relative;
-  height: 60vh;
-  background: url("https://via.placeholder.com/1500x800/111/f0f0f0?text=New+Releases+Banner")
-    no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-}
 
-.hero-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  border-radius: 10px;
-}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneaker Society</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .hero {
+      position: relative;
+      height: 60vh;
+      background: url("https://via.placeholder.com/1500x800/111/f0f0f0?text=New+Releases+Banner") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+    }
 
-.hero h1 {
-  font-size: 3em;
-  margin: 0 0 10px;
-  color: #fff;
-}
+    .hero-content {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 10px;
+    }
 
-.hero p {
-  font-size: 1.2em;
-  margin: 0 0 20px;
-}
+    .hero h1 {
+      font-size: 3em;
+      margin: 0 0 10px;
+      color: #fff;
+    }
 
-.hero .btn {
-  background-color: var(--accent-color);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+    .hero p {
+      font-size: 1.2em;
+      margin: 0 0 20px;
+    }
 
-.hero .btn:hover {
-  background-color: #d12e5a;
-}
-.btn-login {
+    .hero .btn {
+      background-color: var(--accent-color);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
 
-    background-color: var(--accent-color); 
-    color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
+    .hero .btn:hover {
+      background-color: #d12e5a;
+    }
 
-.btn-login:hover {
-    background-color: #f063a9; 
-}
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <a href="sneakerhome.html">
-          <img src="logo12.png" alt="Logo" style="height: 60px" />
-        </a>
+    .btn-login {
+
+      background-color: var(--accent-color);
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn-login:hover {
+      background-color: #f063a9;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="sneakerhome.html">
+        <img src="logo12.png" alt="Logo" style="height: 60px" />
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="sneakerhome.html">Home</a>
+        </li>
+        <li>
+          <a href="sneakershop.html">Shop</a>
+        </li>
+        <li>
+          <a href="sneakerpayment.html">Payment</a>
+        </li>
+        <li>
+          <a href="sneakercontact.html">Contact</a>
+        </li>
+        <li>
+          <a href="sneakerabout.html">About</a>
+        </li>
+        <li>
+          <a href="sneakerlogin.html" class="btn-login">Log In</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home-page">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Step into the Future.</h1>
+        <p>Explore the newest drops and most sought-after styles.</p>
+        <a href="sneakershop.html" class="btn">Shop Now</a>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="sneakerhome.html">Home</a>
-          </li>
-          <li>
-            <a href="sneakershop.html">Shop</a>
-          </li>
-          <li>
-            <a href="sneakerpayment.html">Payment</a>
-          </li>
-          <li>
-            <a href="sneakercontact.html">Contact</a>
-          </li>
-          <li>
-            <a href="sneakerabout.html">About</a>
-          </li>
-          <li>
-            <a href="sneakerlogin.html" class="btn-login">Log In</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    </section>
+  </main>
 
-    <main class="home-page">
-      <section class="hero">
-        <div class="hero-content">
-          <h1>Step into the Future.</h1>
-          <p>Explore the newest drops and most sought-after styles.</p>
-          <a href="sneakershop.html" class="btn">Shop Now</a>
-        </div>
-      </section>
-    </main>
+  <footer>
+    <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
+  </footer>
+</body>
 
-    <footer>
-      <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
-    </footer>
-  </body>
 </html>
