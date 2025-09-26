@@ -100,7 +100,7 @@ This changelog documents the updates made to the website code from Part 1 to Par
 
 # Visuals, Styling, and Responsive Design # 
 
-Date: September 25, 2025 
+Date: September 23, 2025 
 
 Description of Changes: 
 
@@ -124,7 +124,7 @@ Responsive Design Implementation: Built a fully responsive interface using @medi
 
 # Page Refinement #  
 
-Date: September 25, 2025 
+Date: September 23, 2025 
 
 Description of Changes: 
 
@@ -136,7 +136,7 @@ Corrected HTML Structure: The HTML was refactored to use the correct classes and
 
 # Programs Page Fixes and Improvements # 
 
-Date: September 25, 2025 
+Date: September 24, 2025 
 
 Description of Changes: 
 
