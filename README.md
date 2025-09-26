@@ -185,8 +185,11 @@ CSS Variables: (Implied improvement) Color values are stored as CSS variables (e
 # Website Color Scheme Update #
 
 Header: Background color – Black | Text color – Neon Pink
+
 Body: Background color – Dark Grey | Text color – White
+
 Buttons: Background color – Neon Pink | Text color – White
+
 Footer: Background color – Black | Text color – White
 
 # ScreenShot #
