@@ -130,7 +130,7 @@ Description of Changes:
 
 Corrected Stylesheet Path: Updated the stylesheet link from style.css to style.css for cross-browser compatibility. 
 
-Replaced Local Image: The local image path (c:\Users\RC_Student_lab\...) was replaced with a valid, publicly accessible placeholder image URL (https://placehold.co/800x600/...). 
+Replaced Local Image: The local image path (c:\Users\RC_Student_lab\...) was replaced with a valid, publicly accessible placeholder image URL ("https://via.placeholder.com/1500x800/111/f0f0f0?text=New+Releases+Banner"). 
 
 Corrected HTML Structure: The HTML was refactored to use the correct classes and structure from the main stylesheet, ensuring a consistent and responsive design across the site. 
 
@@ -170,7 +170,14 @@ Base Body: The main content area uses a dark grey background with white text to 
 
 Call-to-Action (CTA) Buttons: Primary buttons are styled with a Neon Pink background and white text to maximize visibility and drive conversions. 
 
-CSS Variables: (Implied improvement) Color values are stored as CSS variables (e.g., --primary-black, --accent-pink) for easy maintenance and global consistency. 
+CSS Variables: (Implied improvement) Color values are stored as CSS variables (e.g., --primary-black, --accent-pink) for easy maintenance and global consistency.
+
+# ScreenShot #
+![Alt text](mobile.png) 
+![Alt text](<crop responsive.png>) 
+![Alt text](tables.png) 
+![Alt text](Desktop.png)
+
 
  
 
