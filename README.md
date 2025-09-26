@@ -75,12 +75,111 @@ The project will be prepared for final submission, including a review of all imp
 
 # GITHUB link : https://github.com/liBY900/WEDE502-PART-1.git
 
-# Part 2#
+# Part 2 #
 
-Color change for the whole website
-Header >>>>background color "black". text color "Neon Pink"
-Body >>>>> background color "Dark Grey", text color "White" 
-botton>>>>> background color "Neon Pink", text color "white"
-Footer>>>> background color "black", text color "White" 
+The Sneaker Shop 
+
+This repository contains the code for a multi-page website for "Sneaker Society" a community focused on selling vintage and rare sneakers. The website is designed to be informative, user-friendly, and responsive across various devices. 
 
 
+# Features # 
+
+Multi-Page Structure: The website is organized into multiple HTML files (sneakerhome.html, sneakerabout.html, sneakerpayment.html, sneakershop.html, sneakercontact.html). 
+
+External Stylesheet: All styling is managed in internal and an external ccs file. 
+
+Responsive Design: The layout, typography, and visual assets are precisely engineered for a seamless and consistent viewing experience across all modern devices (desktop, tablet, and mobile) through the strategic use of CSS Flexbox, CSS Grid, and comprehensive media queries. 
+
+Clear Navigation: A sticky header with clear navigation links and call-to-action buttons ensures users can easily find the information they need. 
+
+Modern UI/UX: The design incorporates soft colors, rounded corners, and subtle hover effects to create an engaging and professional aesthetic. 
+
+Changelog 
+
+This changelog documents the updates made to the website code from Part 1 to Part 2, based on the provided feedback and requirements. 
+
+# Visuals, Styling, and Responsive Design # 
+
+Date: September 25, 2025 
+
+Description of Changes: 
+
+External Stylesheet Creation: Created a new, central stylesheet named style.css. 
+HTML Refactoring: Removed all inline <style> blocks from all existing HTML files. 
+
+Stylesheet Linking: Linked every HTML page to the new style.css file using the <link> tag in the <head> section. 
+
+Base Styling: Added a CSS reset and established base styles for the entire website, including a consistent font family (Helvetica Neue", Arial, sans-serif 
+
+), font sizes (rem units), and a color palette using CSS variables (--primary-color, etc.). 
+
+Typography: Applied typography styles with font-family, font-size, font-weight, and line-height for h1 through h6 and p tags. 
+
+Layout Structure: Implemented Flexbox and CSS Grid for layout on key pages, such as the navigation bar and program grid, to ensure a robust and flexible design. 
+
+Visual Styling: Applied decorative styles using background-color, box-shadow, and border-radius. Added pseudo-classes like :hover to interactive elements to improve user experience. 
+
+Responsive Design Implementation: Built a fully responsive interface using @media queries (tablet and mobile breakpoints) and relative units (em, rem, vw) to ensure font sizes and layouts scale correctly, successfully switching complex views to a single-column display on smaller screens. 
+
+
+# About Us Page Refinement #  
+
+Date: September 25, 2025 
+
+Description of Changes: 
+
+Corrected Stylesheet Path: Updated the stylesheet link from style.css to style.css for cross-browser compatibility. 
+
+Replaced Local Image: The local image path (c:\Users\RC_Student_lab\...) was replaced with a valid, publicly accessible placeholder image URL (https://placehold.co/800x600/...). 
+
+Corrected HTML Structure: The HTML was refactored to use the correct classes and structure from the main stylesheet, ensuring a consistent and responsive design across the site. 
+
+# Programs Page Fixes and Improvements # 
+
+Date: September 25, 2025 
+
+Description of Changes: 
+
+Corrected Stylesheet Path: The stylesheet link was corrected from style.css to style.css for proper file linking. 
+
+Replaced Local Images: All local image file paths were replaced with publicly accessible placeholder image URLs to ensure images display correctly for all users. 
+
+ The styling for images and the program grid layout was moved to the central style.css file to adhere to best practices. 
+
+ 
+
+# Added a Login page # 
+
+Date: September 25, 2025 
+
+ 
+
+Description of Changes: 
+
+ Implemented a Secure User Authentication System: Developed a dedicated   login page to enable users to access their personalized accounts, enhancing platform functionality. The page was seamlessly integrated with the existing site architecture, utilizing the global header, footer, and brand background color for a consistent and professional user experience. This feature is a foundational step for personalized content and account security. 
+
+ 
+
+Core Styling and Color Palette Implementation 
+
+A bold, high-contrast, and modern color scheme was defined to elevate the website's aesthetic and brand identity. This implementation ensures a visually striking and consistent user experience. 
+
+Header & Footer: Set to a solid black background for a strong, unified frame. Header text uses Neon Pink for navigation and emphasis. 
+
+Base Body: The main content area uses a dark grey background with white text to ensure readability and a sleek, premium look. 
+
+Call-to-Action (CTA) Buttons: Primary buttons are styled with a Neon Pink background and white text to maximize visibility and drive conversions. 
+
+CSS Variables: (Implied improvement) Color values are stored as CSS variables (e.g., --primary-black, --accent-pink) for easy maintenance and global consistency. 
+
+ 
+
+# Reference # 
+
+HTML codes > https://www.w3schools.com/html/default.asp 
+
+Images > https://www.sothebys.com/en/articles/an-inside-look-at-the-world-of-ultra-rare-sneakers 
+
+CSS styling> https://www.youtube.com/watch?v=G3e-cpL7ofc 
+
+ 
