@@ -173,9 +173,14 @@ Call-to-Action (CTA) Buttons: Primary buttons are styled with a Neon Pink backgr
 CSS Variables: (Implied improvement) Color values are stored as CSS variables (e.g., --primary-black, --accent-pink) for easy maintenance and global consistency.
 
 # ScreenShot #
+
+Mobile
 ![Alt text](mobile.png) 
+Crop
 ![Alt text](<crop responsive.png>) 
+Tablet
 ![Alt text](tables.png) 
+Desktop
 ![Alt text](Desktop.png)
 
 
