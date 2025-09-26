@@ -146,6 +146,14 @@ Replaced Local Images: All local image file paths were replaced with publicly ac
 
  The styling for images and the program grid layout was moved to the central style.css file to adhere to best practices. 
 
+# Added Images on the website #
+
+Date: September 24,2025
+
+Description of Changes: 
+ Added images for the shopping webpage and About page for the images of the team , and link the styling of the grids from style.css
+
+
  
 
 # Added a Login page # 
