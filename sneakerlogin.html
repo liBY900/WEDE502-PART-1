@@ -79,7 +79,20 @@
         }
     </style>
 </head>
+<script>
+ 
+  document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector(".login-form");
 
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); 
+      
+      alert("Welcome to Sneaker Society!");
+
+      window.location.href = "sneakerhome.html";
+    });
+  });
+</script>
 <body>
 
     <main class="login-page">
@@ -113,7 +126,16 @@
             </form>
         </section>
     </main>
-
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector(".login-form");
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      alert("Welcome to Sneaker Society!");
+      window.location.href = "sneakerhome.html";
+    });
+  });
+</script>
 </body>
 
 </html>
