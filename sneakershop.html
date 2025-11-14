@@ -6,7 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shop</title>
   <link rel="stylesheet" href="style.css" />
+
   <style>
+    /* Full-page gradient background */
+    body {
+      background: linear-gradient(to bottom, rgb(41, 41, 41), rgb(15, 15, 15));
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -55,86 +64,114 @@
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header>
     <div class="logo">
       <a href="sneakerhome.html">
-        <img src="logo12.png" alt="Logo" style="height: 60px" />
+        <img src="logo12.png" alt="Sneaker Society Logo" style="height: 60px;">
       </a>
     </div>
+
     <nav>
       <ul>
-        <li>
-          <a href="sneakerhome.html">Home</a>
-        </li>
-        <li>
-          <a href="sneakershop.html">Shop</a>
-        </li>
-        <li>
-          <a href="sneakerpayment.html">Payment</a>
-        </li>
-        <li>
-          <a href="sneakercontact.html">Contact</a>
-        </li>
-        <li>
-          <a href="sneakerabout.html">About</a>
-        </li>
+        <li><a href="sneakerhome.html">Home</a></li>
+        <li><a href="sneakershop.html" class="active">Shop</a></li>
+        <li><a href="sneakerpayment.html">Payment</a></li>
+        <li><a href="sneakercontact.html">Contact</a></li>
+        <li><a href="sneakerabout.html">About</a></li>
       </ul>
     </nav>
   </header>
+
+  <!-- MAIN CONTENT -->
   <div class="container">
     <section class="new-releases">
       <h2>New Releases</h2>
+
       <div class="product-grid">
+
+        <!-- PRODUCT 1 -->
         <div class="product-card">
-          <a href="#product"><img src="Part 1\Images\SneakerPICS\SNKR1.webp" alt="Sneaker 1" /></a>
+          <a href="#product">
+            <img src="Part 1/Images/SneakerPICS/SNKR1.webp" alt="New Balance 90">
+          </a>
           <div class="product-info">
             <h3>New Balance 90</h3>
             <p>R3 500</p>
+            <button class="add-to-cart">Add to Cart</button> 
           </div>
         </div>
+
+        <!-- PRODUCT 2 -->
         <div class="product-card">
-          <a href="#product"><img src="Part 1\Images\SneakerPICS/SNKR3.webp" alt="Sneaker 2" /></a>
+          <a href="#product">
+            <img src="Part 1/Images/SneakerPICS/SNKR3.webp" alt="Freddy Kruger Dunks">
+          </a>
           <div class="product-info">
-            <h3>Freddy Kruger danks</h3>
+            <h3>Freddy Kruger Dunks</h3>
             <p>R12 000</p>
+            <button class="add-to-cart">Add to Cart</button> 
           </div>
         </div>
-        <div class="product-card">
-          <a href="#product"><img src="Part 1\Images\SneakerPICS/SNKR2.webp" alt="Sneaker 3" /></a>
-          <div class="product-info">
-            <h3>JORDAN FIVES</h3>
-            <p>$16 500</p>
-          </div>
-        </div>
-        <div class="product-card">
-          <a href="#product"><img src="Part 1\Images\SneakerPICS/SNKR6.jpeg" alt="Sneaker 4" /></a>
-          <div class="product-info">
-            <h3>LV DUNKS</h3>
-            <p>$25 000</p>
-          </div>
 
-
-        </div>
+        <!-- PRODUCT 3 -->
         <div class="product-card">
-          <a href="#product"><img src="Part 1\Images\SneakerPICS/SNKR5.webp" alt="Sneaker 4" /></a>
+          <a href="#product">
+            <img src="Part 1/Images/SneakerPICS/SNKR2.webp" alt="Jordan Fives">
+          </a>
           <div class="product-info">
-            <h3>JORDAN 4s</h3>
-            <p>$15 000</p>
+            <h3>Jordan Fives</h3>
+            <p>R16 500</p>
+            <button class="add-to-cart">Add to Cart</button> 
           </div>
-
         </div>
+
+        <!-- PRODUCT 4 -->
         <div class="product-card">
-          <a href="#product"><img src="Part 1\Images\SneakerPICS/SNKR4.webp" alt="Sneaker 4" /></a>
+          <a href="#product">
+            <img src="Part 1/Images/SneakerPICS/SNKR6.jpeg" alt="LV Dunks">
+          </a>
           <div class="product-info">
-            <h3>JORDANS 1S</h3>
-            <p>$125 000</p>
+            <h3>LV Dunks</h3>
+            <p>R25 000</p>
+            <button class="add-to-cart">Add to Cart</button> 
           </div>
+        </div>
+
+        <!-- PRODUCT 5 -->
+        <div class="product-card">
+          <a href="#product">
+            <img src="Part 1/Images/SneakerPICS/SNKR5.webp" alt="Jordan 4s">
+          </a>
+          <div class="product-info">
+            <h3>Jordan 4s</h3>
+            <p>R15 000</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- PRODUCT 6 -->
+        <div class="product-card">
+          <a href="#product">
+            <img src="Part 1/Images/SneakerPICS/SNKR4.webp" alt="Jordans 1s">
+          </a>
+          <div class="product-info">
+            <h3>Jordans 1s</h3>
+            <p>R125 000</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
     </section>
   </div>
 
+  <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
   </footer>
+<script src="script.js"></script>
 </body>
 
 </html>

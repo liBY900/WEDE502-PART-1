@@ -3,60 +3,74 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="Buy Stylish Sneakers Online | Sneaker Society" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Buy Stylish Sneakers Online | Sneaker Society</title>
   <link rel="stylesheet" href="style.css" />
+
   <style>
+    /* HERO SECTION */
     .hero {
       position: relative;
-      height: 60vh;
-      background: url("https://via.placeholder.com/1500x800/111/f0f0f0?text=New+Releases+Banner") no-repeat center center/cover;
+      height: 65vh;
+      background: url("https://via.placeholder.com/1500x800/111/f0f0f0?text=New+Releases+Banner")
+        no-repeat center center / cover;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      color: #fff;
       padding: 20px;
+      color: #fff;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
     }
 
     .hero-content {
-      background-color: rgba(0, 0, 0, 0.5);
+      position: relative;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.55);
       padding: 40px;
-      border-radius: 10px;
+      border-radius: 12px;
     }
 
     .hero h1 {
-      font-size: 3em;
-      margin: 0 0 10px;
+      font-size: 3rem;
+      margin-bottom: 12px;
       color: #fff;
     }
 
     .hero p {
-      font-size: 1.2em;
-      margin: 0 0 20px;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #ddd;
     }
 
-    .hero .btn {
+    .btn {
       background-color: var(--accent-color);
       color: #fff;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-transform: uppercase;
+      padding: 12px 22px;
+      border-radius: 6px;
       font-weight: bold;
+      text-transform: uppercase;
+      transition: 0.3s ease;
+      display: inline-block;
     }
 
-    .hero .btn:hover {
+    .btn:hover {
       background-color: #d12e5a;
     }
 
     .btn-login {
-
-      background-color: var(--accent-color);
-      color: white;
+      background: var(--accent-color);
       padding: 8px 15px;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+      color: #fff;
     }
 
     .btn-login:hover {
@@ -66,36 +80,28 @@
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header>
     <div class="logo">
       <a href="sneakerhome.html">
-        <img src="logo12.png" alt="Logo" style="height: 60px" />
+        <img src="logo12.png" alt="Sneaker Society Logo" style="height: 60px" />
       </a>
     </div>
+
     <nav>
       <ul>
-        <li>
-          <a href="sneakerhome.html">Home</a>
-        </li>
-        <li>
-          <a href="sneakershop.html">Shop</a>
-        </li>
-        <li>
-          <a href="sneakerpayment.html">Payment</a>
-        </li>
-        <li>
-          <a href="sneakercontact.html">Contact</a>
-        </li>
-        <li>
-          <a href="sneakerabout.html">About</a>
-        </li>
-        <li>
-          <a href="sneakerlogin.html" class="btn-login">Log In</a>
-        </li>
+        <li><a href="sneakerhome.html">Home</a></li>
+        <li><a href="sneakershop.html">Shop</a></li>
+        <li><a href="sneakerpayment.html">Payment</a></li>
+        <li><a href="sneakercontact.html">Contact</a></li>
+        <li><a href="sneakerabout.html">About</a></li>
+        <li><a href="sneakerlogin.html" class="btn-login">Log In</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- HERO SECTION -->
   <main class="home-page">
     <section class="hero">
       <div class="hero-content">
@@ -106,9 +112,13 @@
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
   </footer>
+
+  <!-- LINK EXTERNAL JS -->
+  <script src="script.js"></script>
 </body>
 
 </html>

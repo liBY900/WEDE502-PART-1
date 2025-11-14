@@ -4,9 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product</title>
+  <title>Payment</title>
   <link rel="stylesheet" href="style.css">
+
   <style>
+    /* Gradient background */
+    body {
+      background: linear-gradient(to bottom, rgb(41, 41, 41), rgb(15, 15, 15));
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text-color);
+    }
+
     .payment-container {
       display: flex;
       flex-direction: column;
@@ -17,36 +27,43 @@
     }
 
     .payment-form-box {
-      background: rgba(0, 0, 0, 0.5);
-      border-radius: 8px;
+      background: rgba(0, 0, 0, 0.55);
+      border-radius: 10px;
       padding: 30px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
       width: 100%;
       max-width: 500px;
+      backdrop-filter: blur(4px);
     }
 
     .payment-form-box h2 {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+      color: var(--accent-color);
     }
 
     .payment-form-box label {
       display: block;
       margin-bottom: 8px;
       font-weight: bold;
+      color: var(--text-color);
     }
 
     .payment-form-box input[type="text"],
     .payment-form-box input[type="email"],
     .payment-form-box input[type="tel"] {
       width: 100%;
-      padding: 10px;
+      padding: 12px;
       margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
+      border: 1px solid #444;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      outline: none;
     }
 
+    /* Expiry + CVV */
     .card-details {
       display: flex;
       gap: 15px;
@@ -57,28 +74,29 @@
       width: 50%;
     }
 
+    /* Pay button */
     .payment-btn {
-      background-color: #ff3366;
+      background-color: var(--accent-color);
       color: #fff;
       border: none;
       padding: 15px 25px;
       text-align: center;
-      text-decoration: none;
       display: block;
       font-size: 20px;
       border-radius: 10px;
       cursor: pointer;
       width: 100%;
-      transition: background-color 0.3s;
+      transition: 0.3s;
     }
 
     .payment-btn:hover {
       background-color: #333;
     }
 
+    /* Order summary */
     .order-summary {
       margin-top: 30px;
-      border-top: 2px solid #eee;
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
       padding-top: 20px;
       width: 100%;
       max-width: 500px;
@@ -86,67 +104,67 @@
 
     .order-summary h3 {
       margin-bottom: 15px;
+      color: var(--accent-color);
     }
 
     .order-summary .item {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
+      color: #ddd;
     }
 
     .order-summary .total {
       font-weight: bold;
-      font-size: 1.2em;
-      border-top: 1px solid #ccc;
-      padding-top: 10px;
+      font-size: 1.25rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding-top: 12px;
       margin-top: 10px;
+      color: var(--accent-color);
     }
   </style>
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header>
     <div class="logo">
       <a href="sneakerhome.html">
-        <img src="logo12.png" alt="Logo" style="height: 60px" />
+        <img src="logo12.png" alt="Sneaker Society Logo" style="height: 60px;" />
       </a>
     </div>
+
     <nav>
       <ul>
-        <li>
-          <a href="sneakerhome.html">Home</a>
-        </li>
-        <li>
-          <a href="sneakershop.html">Shop</a>
-        </li>
-        <li>
-          <a href="sneakerpayment.html">Payment</a>
-        </li>
-        <li>
-          <a href="sneakercontact.html">Contact</a>
-        </li>
-        <li>
-          <a href="sneakerabout.html">About</a>
-        </li>
+        <li><a href="sneakerhome.html">Home</a></li>
+        <li><a href="sneakershop.html">Shop</a></li>
+        <li><a href="sneakerpayment.html" class="active">Payment</a></li>
+        <li><a href="sneakercontact.html">Contact</a></li>
+        <li><a href="sneakerabout.html">About</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- PAYMENT SECTION -->
   <div class="container payment-container">
+
     <div class="payment-form-box">
       <h2>Payment Details</h2>
+
       <form action="#" method="post">
         <label for="card-number">Card Number</label>
         <input type="text" id="card-number" name="card-number" placeholder="xxxx-xxxx-xxxx-xxxx" required />
 
         <label for="card-name">Cardholder Name</label>
-        <input type="text" id="card-name" name="card-name" required />
+        <input type="text" id="card-name" name="card-name" placeholder="Name on card" required />
 
         <div class="card-details">
           <div class="expiry">
             <label for="expiry-date">Expiry Date</label>
             <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required />
           </div>
+
           <div class="cvv">
             <label for="cvv">CVV</label>
             <input type="text" id="cvv" name="cvv" placeholder="xxx" required />
@@ -157,16 +175,20 @@
       </form>
     </div>
 
+    <!-- ORDER SUMMARY -->
     <div class="order-summary">
       <h3>Order Summary</h3>
+
       <div class="item">
         <span>New Balance 90</span>
         <span>R3 500</span>
       </div>
+
       <div class="item">
         <span>Shipping</span>
         <span>R150</span>
       </div>
+
       <div class="total">
         <span>Total</span>
         <span>R3 650</span>
@@ -174,9 +196,11 @@
     </div>
   </div>
 
+  <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
   </footer>
+<script src="script.js"></script>
 </body>
 
 </html>
