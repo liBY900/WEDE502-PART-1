@@ -46,7 +46,7 @@ a:hover {
 
 /* HEADER */
 header {
-  background-color: #000;
+   background: linear-gradient(to bottom, var(#000, var(--secondary-bg)));
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
@@ -81,9 +81,11 @@ nav a:hover {
 footer {
   background: linear-gradient(to bottom, var(--secondary-bg), #000);
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 35px;
+  margin-top: 0px;
   border-top: 1px solid #333;
+  margin-bottom: 0px;
+  
 }
 
 /* MEDIA QUERIES */
