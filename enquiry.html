@@ -8,7 +8,6 @@
   <title>Enquiry - Sneaker Society</title>
   <link rel="stylesheet" href="style.css">
   <style>
- 
     .logo-text .top {
       font-size: 20px;
       font-weight: bold;
@@ -24,7 +23,7 @@
     .container {
       max-width: 700px;
       margin: 40px auto;
-      padding: 20px;
+      padding: 100px;
       background: rgba(0, 0, 0, 0.6);
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -60,8 +59,9 @@
       font-size: 1em;
       outline: none;
     }
-    option{
-        color: black;
+
+    option {
+      color: black;
     }
 
     textarea {
@@ -86,7 +86,7 @@
     .btn-submit:hover {
       transform: scale(1.05);
       box-shadow: 0 0 15px rgba(255, 59, 107, 0.6),
-                  0 0 25px rgba(255, 59, 107, 0.4);
+        0 0 25px rgba(255, 59, 107, 0.4);
     }
 
     .response-message {
@@ -128,26 +128,30 @@
   <!-- Enquiry Form -->
   <div class="container">
     <h1>Enquiry Form</h1>
-    <form id="enquiryForm">
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <form action="https://formspree.io/f/mvgdnzeg" method="POST">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+  <label for="email">Email Address:</label>
+  <input type="email" id="email" name="email" placeholder="you@example.com" required>
 
-      <label for="type">Enquiry Type:</label>
-      <select id="type" name="type" required>
-        <option value="" class="optt">--Select--</option>
-        <option value="product">Product/Service</option>
-        <option value="volunteer">Volunteer</option>
-        <option value="sponsor">Sponsor</option>
-      </select>
+  <label for="type">Enquiry Type:</label>
+  <select id="type" name="type" required>
+    <option value="">--Select--</option>
+    <option value="product">Product/Service</option>
+    <option value="volunteer">Volunteer</option>
+    <option value="sponsor">Sponsor</option>
+  </select>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Write your enquiry here..." required></textarea>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" placeholder="Write your enquiry here..." required></textarea>
 
-      <button type="submit" class="btn-submit">Submit Enquiry</button>
-    </form>
+  <!-- Optional spam protection -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit" class="btn-submit">Submit Enquiry</button>
+</form>
+
 
     <div class="response-message" id="responseMessage"></div>
   </div>
@@ -186,9 +190,9 @@
       form.reset();
     });
   </script>
- <footer>
-      <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
+  </footer>
 
 </body>
 

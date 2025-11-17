@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Buy stylish sneakers online from Sneaker Society. Explore top brands, exclusive releases, and quality footwear." >
+  <meta name="description"
+    content="Buy stylish sneakers online from Sneaker Society. Explore top brands, exclusive releases, and quality footwear." />
 
   <title>Shop</title>
   <link rel="stylesheet" href="style.css" />
@@ -12,7 +13,9 @@
   <style>
     /* Full-page gradient background */
     body {
-      background: linear-gradient(to bottom, rgb(41, 41, 41), rgb(15, 15, 15));
+      background: linear-gradient(to bottom,
+          rgb(41, 41, 41),
+          rgb(15, 15, 15));
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
@@ -20,7 +23,7 @@
 
     .product-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 30px;
       padding: 40px 0;
     }
@@ -62,11 +65,27 @@
       color: var(--accent-color);
       font-weight: bold;
     }
+
+    .add-to-cart {
+      background-color: var(--accent-color);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .add-to-cart:hover {
+      transform: scale(1.05);
+      background-color: #d12e5a;
+      box-shadow: 0 0 15px rgba(255, 59, 107, 0.6),
+        0 0 25px rgba(255, 59, 107, 0.4);
+    }
   </style>
 </head>
 
 <body>
-
   <!-- HEADER -->
   <header>
     <div class="logo">
@@ -85,7 +104,7 @@
         <li><a href="sneakershop.html" class="active">Shop</a></li>
         <li><a href="sneakerpayment.html">Payment</a></li>
         <li><a href="sneakercontact.html">Contact</a></li>
-        <li><a href="enquiry.html" >Enquiry</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
         <li><a href="sneakerabout.html">About</a></li>
       </ul>
     </nav>
@@ -97,11 +116,10 @@
       <h2>New Releases</h2>
 
       <div class="product-grid">
-
         <!-- PRODUCT 1 -->
         <div class="product-card">
           <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR1.webp" alt="New Balance 90">
+            <img src="Part 1/Images/SneakerPICS/SNKR1.webp" alt="New Balance 90" />
           </a>
           <div class="product-info">
             <h3>New Balance 90</h3>
@@ -113,7 +131,7 @@
         <!-- PRODUCT 2 -->
         <div class="product-card">
           <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR3.webp" alt="Freddy Kruger Dunks">
+            <img src="Part 1/Images/SneakerPICS/SNKR3.jpg" alt="Freddy Kruger Dunks" />
           </a>
           <div class="product-info">
             <h3>Freddy Kruger Dunks</h3>
@@ -125,7 +143,7 @@
         <!-- PRODUCT 3 -->
         <div class="product-card">
           <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR2.webp" alt="Jordan Fives">
+            <img src="Part 1/Images/SneakerPICS/SNKR2.webp" alt="Jordan Fives" />
           </a>
           <div class="product-info">
             <h3>Jordan Fives</h3>
@@ -137,7 +155,7 @@
         <!-- PRODUCT 4 -->
         <div class="product-card">
           <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR6.jpeg" alt="LV Dunks">
+            <img src="Part 1/Images/SneakerPICS/SNKR6.jpg" alt="LV Dunks" />
           </a>
           <div class="product-info">
             <h3>LV Dunks</h3>
@@ -149,7 +167,7 @@
         <!-- PRODUCT 5 -->
         <div class="product-card">
           <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR5.webp" alt="Jordan 4s">
+            <img src="Part 1/Images/SneakerPICS/SNKR5.webp" alt="Jordan 4s" />
           </a>
           <div class="product-info">
             <h3>Jordan 4s</h3>
@@ -161,7 +179,7 @@
         <!-- PRODUCT 6 -->
         <div class="product-card">
           <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR4.webp" alt="Jordans 1s">
+            <img src="Part 1/Images/SneakerPICS/SNKR4.webp" alt="Jordans 1s" />
           </a>
           <div class="product-info">
             <h3>Jordans 1s</h3>
@@ -169,7 +187,6 @@
             <button class="add-to-cart">Add to Cart</button>
           </div>
         </div>
-
       </div>
     </section>
   </div>
