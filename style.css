@@ -53,6 +53,36 @@ header {
   align-items: center;
   border-bottom: 1px solid #333;
 }
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  line-height: 1;
+  font-family: Arial, sans-serif;
+}
+
+.logo-text .top {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo-text .bottom {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff3366;
+}
 
 .logo a {
   font-size: 1.5em;
