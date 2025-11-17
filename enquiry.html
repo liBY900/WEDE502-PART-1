@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enquire about our products, services, volunteering, or sponsorship opportunities.">
+  <title>Enquiry - Sneaker Society</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+ 
+    .logo-text .top {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .logo-text .bottom {
+      font-size: 16px;
+      font-weight: 500;
+      color: #ff3366;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(4px);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff3366;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select,
+    textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #555;
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      font-size: 1em;
+      outline: none;
+    }
+    option{
+        color: black;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .btn-submit {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      background: #ff3b6b;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: 0.3s ease-in-out;
+      box-shadow: 0 0 0 rgba(255, 59, 107, 0.6);
+      margin-top: 10px;
+    }
+
+    .btn-submit:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 59, 107, 0.6),
+                  0 0 25px rgba(255, 59, 107, 0.4);
+    }
+
+    .response-message {
+      margin-top: 20px;
+      padding: 15px;
+      background: rgba(255, 59, 107, 0.1);
+      border-left: 4px solid #ff3366;
+      border-radius: 6px;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <a href="sneakerhome.html" class="logo-link">
+        <img src="SS.png" alt="Sneaker Society Logo" style="height: 60px;">
+        <div class="logo-text">
+          <span class="top">SNEAKER</span>
+          <span class="bottom">SOCIETY</span>
+        </div>
+      </a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="sneakerhome.html">Home</a></li>
+        <li><a href="sneakershop.html">Shop</a></li>
+        <li><a href="sneakercontact.html">Contact</a></li>
+        <li><a href="enquiry.html" class="active">Enquiry</a></li>
+        <li><a href="sneakerabout.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Enquiry Form -->
+  <div class="container">
+    <h1>Enquiry Form</h1>
+    <form id="enquiryForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="type">Enquiry Type:</label>
+      <select id="type" name="type" required>
+        <option value="" class="optt">--Select--</option>
+        <option value="product">Product/Service</option>
+        <option value="volunteer">Volunteer</option>
+        <option value="sponsor">Sponsor</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your enquiry here..." required></textarea>
+
+      <button type="submit" class="btn-submit">Submit Enquiry</button>
+    </form>
+
+    <div class="response-message" id="responseMessage"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById('enquiryForm');
+    const responseDiv = document.getElementById('responseMessage');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // prevent default form submission
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const type = document.getElementById('type').value;
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !type || !message) {
+        alert("Please fill in all fields!");
+        return;
+      }
+
+      // Mock response based on enquiry type
+      let response = "";
+      if (type === "product") {
+        response = `Hi ${name}, thank you for enquiring about our products. We'll get back to you soon with pricing and availability.`;
+      } else if (type === "volunteer") {
+        response = `Hi ${name}, thank you for your interest in volunteering. Our team will contact you with details on opportunities.`;
+      } else if (type === "sponsor") {
+        response = `Hi ${name}, thank you for considering sponsorship. We'll provide you with sponsorship packages shortly.`;
+      }
+
+      responseDiv.textContent = response;
+      responseDiv.style.display = 'block';
+
+      // Optional: clear form
+      form.reset();
+    });
+  </script>
+ <footer>
+      <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -7,12 +7,21 @@
   --font-headline: "Oswald", sans-serif;
 }
 
+/* Make body a flex container for sticky footer */
 body {
   font-family: var(--font-main);
   background-color: var(--primary-bg);
   color: var(--text-color);
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content should expand to push footer down */
+main, .container {
+  flex: 1;
 }
 
 .container {
@@ -46,13 +55,14 @@ a:hover {
 
 /* HEADER */
 header {
-   background: linear-gradient(to bottom, var(#000, var(--secondary-bg)));
+  background: linear-gradient(to bottom, #000, var(--secondary-bg));
   padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #333;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -112,10 +122,8 @@ footer {
   background: linear-gradient(to bottom, var(--secondary-bg), #000);
   text-align: center;
   padding: 35px;
-  margin-top: 0px;
   border-top: 1px solid #333;
-  margin-bottom: 0px;
-  
+  margin-top: 0;
 }
 
 /* MEDIA QUERIES */
