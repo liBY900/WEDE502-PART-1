@@ -278,6 +278,10 @@ HTML codes > W3Schools.com, https://www.w3schools.com/html/default.asp.
 
 Images > An inside look at the world of Ultra-Rare sneakers 2022, https://www.sothebys.com/en/articles/an-inside-look-at-the-world-of-ultra-rare-sneakers.
 
+Enquiry form > Formspree. (2025). https://formspree.io/forms/mvgdnzeg/overview
+
+Maps > Textomap | Turn text into interactive maps in seconds. (2025). https://www.textomap.com/
+
 CSS styling > SuperSimpleDev 2022, HTML & CSS Full course - Beginner to Pro, YouTube, https://www.youtube.com/watch?v=G3e-cpL7ofc.
 
 Colors > HTML color codes, https://htmlcolorcodes.com/.
