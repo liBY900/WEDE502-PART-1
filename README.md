@@ -211,6 +211,63 @@ On Chrome
 On Microsoft Edge
 ![Alt text](Medge.png)
 
+# New Change log #
+
+Added Enquiry Page (enquiry.html)
+
+Date: November 10, 2025
+Description of Changes:
+
+Created enquiry.html to allow users to enquire about services, products, volunteering, or sponsorship opportunities.
+Added HTML form elements with proper input validation for name, email, message and selection fields.
+Implemented client-side JavaScript validation to ensure accurate form submission.
+Integrated AJAX form submission for seamless user experience.
+Differentiated form functionality from contact.html, focusing on enquiry-specific interactions such as availability, cost or service details.
+
+JavaScript Enhancements
+
+Date: November 14, 2025
+Description of Changes:
+
+Added a JavaScript file "Script.js" for enhancing factionality .
+Integrated search functionality to filter and sort content across pages.
+Added CSS and JavaScript animations/transitions for improved UX.
+Developed advanced DOM manipulation for dynamic page interactions.
+Implemented interactive maps using Leaflet/Mapbox/Google Maps API (for location-based features).
+
+SEO Improvements
+
+Date: November 16, 2025
+Description of Changes:
+
+On-Page SEO:
+
+Conducted keyword research and applied keywords to content.
+Added compelling title tags, meta descriptions, and structured headings (H1-H3).
+Optimized image file names and alt text.
+Ensured clean, descriptive URL structure and internal linking.
+Verified mobile-friendliness.
+
+Off-Page SEO:
+Built high-quality backlinks.
+Applied local SEO strategies.
+Additional Requests:
+
+
+Optimized page loading speed.
+
+Implemented security measures for website protection.
+Form Functionality and Validation
+
+Date: November 18, 2025
+Description of Changes:
+
+Added validated HTML forms to enquiry.html and contact.html.
+Ensured proper input types and attributes for user-friendly data collection.
+Implemented JavaScript-based client-side validation and error handling.
+Enabled AJAX submission for asynchronous data processing.
+Differentiated forms: enquiry.html focuses on service/product enquiries; contact.html collects general messages for the organization.
+
 
 
  

@@ -171,4 +171,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+const mnav = document.getElementById('mnav');
+const navMenu = document.getElementById('nav-menu');
+
+mnav.addEventListener('click', () => {
+  navMenu.classList.toggle('active'); 
+  mnav.classList.toggle('open'); 
+});
+
+
+
 
