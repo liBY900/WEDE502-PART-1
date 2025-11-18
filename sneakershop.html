@@ -13,9 +13,7 @@
   <style>
     /* Full-page gradient background */
     body {
-      background: linear-gradient(to bottom,
-          rgb(41, 41, 41),
-          rgb(15, 15, 15));
+      background: linear-gradient(to bottom, rgb(41, 41, 41), rgb(15, 15, 15));
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
@@ -66,21 +64,24 @@
       font-weight: bold;
     }
 
-    .add-to-cart {
+    /* BUY BUTTON */
+    .buy-btn {
       background-color: var(--accent-color);
       color: #fff;
       border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
+      padding: 12px 22px;
+      border-radius: 8px;
       cursor: pointer;
       font-weight: bold;
-      transition: background-color 0.3s;
+      font-size: 1em;
+      transition: 0.3s ease;
     }
-    .add-to-cart:hover {
-      transform: scale(1.05);
+
+    .buy-btn:hover {
+      transform: scale(1.07);
       background-color: #d12e5a;
       box-shadow: 0 0 15px rgba(255, 59, 107, 0.6),
-        0 0 25px rgba(255, 59, 107, 0.4);
+                  0 0 25px rgba(255, 59, 107, 0.4);
     }
   </style>
 </head>
@@ -116,77 +117,79 @@
       <h2>New Releases</h2>
 
       <div class="product-grid">
+
         <!-- PRODUCT 1 -->
         <div class="product-card">
-          <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR1.webp" alt="New Balance 90" />
-          </a>
+          <img src="Part 1/Images/SneakerPICS/SNKR1.webp" alt="New Balance 90" />
           <div class="product-info">
             <h3>New Balance 90</h3>
             <p>R3 500</p>
-            <button class="add-to-cart">Add to Cart</button>
+            <a href="sneakerpayment.html">
+              <button class="buy-btn">Buy Now</button>
+            </a>
           </div>
         </div>
 
         <!-- PRODUCT 2 -->
         <div class="product-card">
-          <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR3.jpg" alt="Freddy Kruger Dunks" />
-          </a>
+          <img src="Part 1/Images/SneakerPICS/SNKR3.jpg" alt="Freddy Kruger Dunks" />
           <div class="product-info">
             <h3>Freddy Kruger Dunks</h3>
             <p>R12 000</p>
-            <button class="add-to-cart">Add to Cart</button>
+            <a href="sneakerpayment.html">
+              <button class="buy-btn">Buy Now</button>
+            </a>
           </div>
         </div>
 
         <!-- PRODUCT 3 -->
         <div class="product-card">
-          <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR2.webp" alt="Jordan Fives" />
-          </a>
+          <img src="Part 1/Images/SneakerPICS/SNKR2.webp" alt="Jordan Fives" />
           <div class="product-info">
             <h3>Jordan Fives</h3>
             <p>R16 500</p>
-            <button class="add-to-cart">Add to Cart</button>
+            <a href="sneakerpayment.html">
+              <button class="buy-btn">Buy Now</button>
+            </a>
           </div>
         </div>
 
         <!-- PRODUCT 4 -->
         <div class="product-card">
-          <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR6.jpg" alt="LV Dunks" />
-          </a>
+          <img src="Part 1/Images/SneakerPICS/SNKR6.jpg" alt="LV Dunks" />
           <div class="product-info">
             <h3>LV Dunks</h3>
             <p>R25 000</p>
-            <button class="add-to-cart">Add to Cart</button>
+            <a href="sneakerpayment.html">
+              <button class="buy-btn">Buy Now</button>
+            </a>
           </div>
         </div>
 
         <!-- PRODUCT 5 -->
         <div class="product-card">
-          <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR5.webp" alt="Jordan 4s" />
-          </a>
+          <img src="Part 1/Images/SneakerPICS/SNKR5.jpg" alt="Jordan 4s" />
           <div class="product-info">
             <h3>Jordan 4s</h3>
             <p>R15 000</p>
-            <button class="add-to-cart">Add to Cart</button>
+            <a href="sneakerpayment.html">
+              <button class="buy-btn">Buy Now</button>
+            </a>
           </div>
         </div>
 
         <!-- PRODUCT 6 -->
         <div class="product-card">
-          <a href="#product">
-            <img src="Part 1/Images/SneakerPICS/SNKR4.webp" alt="Jordans 1s" />
-          </a>
+          <img src="Part 1/Images/SneakerPICS/SNKR7.png" alt="Jordans 1s" />
           <div class="product-info">
             <h3>Jordans 1s</h3>
             <p>R125 000</p>
-            <button class="add-to-cart">Add to Cart</button>
+            <a href="sneakerpayment.html">
+              <button class="buy-btn">Buy Now</button>
+            </a>
           </div>
         </div>
+
       </div>
     </section>
   </div>
@@ -195,6 +198,7 @@
   <footer>
     <p>&copy; 2025 Sneaker Society. All rights reserved.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 
