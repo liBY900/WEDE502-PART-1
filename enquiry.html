@@ -168,7 +168,7 @@
     const responseDiv = document.getElementById('responseMessage');
 
     form.addEventListener('submit', function (e) {
-      e.preventDefault(); // prevent default form submission
+      e.preventDefault(); // preventing any default form submission
 
       const name = document.getElementById('name').value.trim();
       const email = document.getElementById('email').value.trim();
@@ -180,7 +180,7 @@
         return;
       }
 
-      // Mock response based on enquiry type
+      
       let response = "";
       if (type === "product") {
         response = `Hi ${name}, thank you for enquiring about our products. We'll get back to you soon with pricing and availability.`;
@@ -193,7 +193,7 @@
       responseDiv.textContent = response;
       responseDiv.style.display = 'block';
 
-      // Optional: clear form
+      // clear form
       form.reset();
     });
   </script>

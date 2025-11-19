@@ -223,6 +223,7 @@ Added HTML form elements with proper input validation for name, email, message a
 Implemented client-side JavaScript validation to ensure accurate form submission.
 Integrated AJAX form submission for seamless user experience.
 Differentiated form functionality from contact.html, focusing on enquiry-specific interactions such as availability, cost or service details.
+![alt text](<part 3 screenshoot/Enquiry.png>)
 
 JavaScript Enhancements
 
@@ -246,7 +247,7 @@ Conducted keyword research and applied keywords to content.
 Added compelling title tags, meta descriptions, and structured headings (H1-H3).
 Optimized image file names and alt text.
 Ensured clean, descriptive URL structure and internal linking.
-Verified mobile-friendliness.
+Verified mobile-friendliness:![alt text](<part 3 screenshoot/Screenshot 2025-11-18 171929.png>)
 
 Off-Page SEO:
 Built high-quality backlinks.
