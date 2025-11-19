@@ -1,0 +1,10 @@
+# Allow all search engines to crawl the main pages
+User-agent: *
+Allow: /
+
+# Block pages that shouldn't be indexed
+Disallow: /sneakerlogin.html
+Disallow: /sneakerpayment.html
+
+# Link to your sitemap
+Sitemap: https://liBY900.github.io/WEDE502-POE/sitemap.xml
