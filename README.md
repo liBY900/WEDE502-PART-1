@@ -269,22 +269,23 @@ Implemented JavaScript-based client-side validation and error handling.
 Enabled AJAX submission for asynchronous data processing.
 Differentiated forms: enquiry.html focuses on service/product enquiries; contact.html collects general messages for the organization.
 
+# Page Speed #
+
+<img width="1835" height="909" alt="page speed" src="https://github.com/user-attachments/assets/e9aad665-68b2-44a8-9138-e813c39c7633" />
+
 
 
  
 
 # Reference # 
 
-HTML codes > W3Schools.com, https://www.w3schools.com/html/default.asp.
 
-Images > An inside look at the world of Ultra-Rare sneakers 2022, https://www.sothebys.com/en/articles/an-inside-look-at-the-world-of-ultra-rare-sneakers.
 
-Enquiry form > Formspree. (2025). https://formspree.io/forms/mvgdnzeg/overview
-
-Maps > Textomap | Turn text into interactive maps in seconds. (2025). https://www.textomap.com/
-
-CSS styling > SuperSimpleDev 2022, HTML & CSS Full course - Beginner to Pro, YouTube, https://www.youtube.com/watch?v=G3e-cpL7ofc.
-
-Colors > HTML color codes, https://htmlcolorcodes.com/.
-
+1. **Colors** > HTML color codes, [https://htmlcolorcodes.com/](https://htmlcolorcodes.com/).
+2. **CSS styling** > SuperSimpleDev 2022, HTML & CSS Full course - Beginner to Pro, YouTube, [https://www.youtube.com/watch?v=G3e-cpL7ofc](https://www.youtube.com/watch?v=G3e-cpL7ofc).
+3. **Enquiry form** > Formspree. (2025). [https://formspree.io/forms/mvgdnzeg/overview](https://formspree.io/forms/mvgdnzeg/overview)
+4. **HTML codes** > W3Schools.com, [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp).
+5. **Images** > An inside look at the world of Ultra-Rare sneakers 2022, [https://www.sothebys.com/en/articles/an-inside-look-at-the-world-of-ultra-rare-sneakers](https://www.sothebys.com/en/articles/an-inside-look-at-the-world-of-ultra-rare-sneakers).
+6. **Maps** > Textomap | Turn text into interactive maps in seconds. (2025). [https://www.textomap.com/](https://www.textomap.com/)
+7. **PageSpeed Insights.** (2025). PageSpeed Insights. [https://pagespeed.web.dev/analysis/https-liby900-github-io-WEDE502-POE-sneakerhome-html/q5wtjw3ay3?form_factor=desktop](https://pagespeed.web.dev/analysis/https-liby900-github-io-WEDE502-POE-sneakerhome-html/q5wtjw3ay3?form_factor=desktop)
  
